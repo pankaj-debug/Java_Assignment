@@ -5,6 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Posts {
+	
 	@Id
 	private Long postId;
 	private String postName;
