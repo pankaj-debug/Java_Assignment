@@ -9,8 +9,7 @@ import org.springframework.stereotype.Component;
 import com.example.demo.Bean.Posts;
 import com.example.demo.Service.CreatePost;
 @Component
-public class CreatePostRunner implements CommandLineRunner{
-	
+public class CreatePostRunner implements CommandLineRunner{	
 	@Autowired
     private Posts posts;
 	

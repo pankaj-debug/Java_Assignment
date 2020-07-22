@@ -11,7 +11,6 @@ import com.example.demo.Service.PostService;
 
 @Component
 public class PostRunner implements CommandLineRunner  {
-
 @Autowired
 private PostService postService;
 

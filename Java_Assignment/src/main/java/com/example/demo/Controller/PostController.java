@@ -12,6 +12,7 @@ import com.example.demo.Service.PostService;
 
 @RestController
 public class PostController {
+	
 	@Autowired
     private PostService postService;
 

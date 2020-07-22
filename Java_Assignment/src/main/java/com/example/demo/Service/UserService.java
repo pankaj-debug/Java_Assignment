@@ -6,4 +6,5 @@ import com.example.demo.Bean.Users;
 
 public interface UserService {
 	List <Users> findAll();
+	
 }

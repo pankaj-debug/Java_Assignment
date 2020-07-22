@@ -10,8 +10,7 @@ import com.example.demo.Bean.Users;
 import com.example.demo.Service.UserService;
 
 @Component
-public class MyRunner implements CommandLineRunner{
-	
+public class MyRunner implements CommandLineRunner{	
 	@Autowired
     private UserService userService;
 	

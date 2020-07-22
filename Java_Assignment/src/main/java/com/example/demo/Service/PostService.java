@@ -6,4 +6,5 @@ import com.example.demo.Bean.Posts;
 
 public interface PostService {
 	List <Posts> findAll();
+	
 }

@@ -10,7 +10,6 @@ import com.example.demo.Service.CreatePost;
 
 @RestController
 public class CreatePostController {
-	
 	@Autowired
 	private Posts posts;
 	@RequestMapping(value = "/createPost", method=RequestMethod.POST)

@@ -6,7 +6,6 @@ import com.example.demo.Bean.Posts;
 import com.example.demo.UserRepository.CreateRepository;
 
 public class CreatePostImpl implements CreatePost{
-
 	@Autowired
     private CreateRepository createRepository;
 	

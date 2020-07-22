@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.example.demo.Bean.Posts;
 import com.example.demo.UserRepository.PostRepository;
 
-public class PostServiceImpl implements PostService {
-	
+public class PostServiceImpl implements PostService {	
 	@Autowired
     private PostRepository postRepository;
 	

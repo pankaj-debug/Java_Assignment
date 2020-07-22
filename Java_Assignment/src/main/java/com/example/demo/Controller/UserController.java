@@ -11,8 +11,7 @@ import com.example.demo.Bean.Users;
 import com.example.demo.Service.UserService;
 
 @RestController
-public class UserController {
-	
+public class UserController {	
 	@Autowired
     private UserService userService;
 

@@ -5,6 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Users {
+	
 	@Id
 	private long id;
 	private String fName;
