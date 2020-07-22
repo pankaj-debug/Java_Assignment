@@ -12,6 +12,7 @@ import com.example.demo.UserRepository.UserRepository;
  * service to fetch all users.
  * */
 
+
 @Service
 public class UserServiceImpl implements UserService {	
 	@Autowired

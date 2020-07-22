@@ -5,6 +5,5 @@ import java.util.List;
 import com.example.demo.Bean.Posts;
 
 public interface PostService {
-	List <Posts> findAll();
-	
+	List <Posts> findAll();	
 }

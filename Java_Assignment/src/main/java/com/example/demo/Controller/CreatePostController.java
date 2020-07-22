@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.Bean.Posts;
 import com.example.demo.Service.CreatePost;
 
+
 @RestController
 public class CreatePostController {
 	@Autowired

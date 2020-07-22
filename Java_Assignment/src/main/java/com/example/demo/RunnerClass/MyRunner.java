@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 import com.example.demo.Bean.Users;
 import com.example.demo.Service.UserService;
 
+
 @Component
 public class MyRunner implements CommandLineRunner{	
 	@Autowired

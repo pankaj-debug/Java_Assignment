@@ -3,6 +3,7 @@ package com.example.demo.Bean;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+
 @Entity
 public class Posts {
 	@Id
