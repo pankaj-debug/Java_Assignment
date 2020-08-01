@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import com.example.demo.Model.Users;
 import com.example.demo.Service.UserService;
 
-
 @Component
 public class MyRunner implements CommandLineRunner{	
 	@Autowired

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.Model.Posts;
 import com.example.demo.Service.PostService;
 
-
 @RestController
 public class PostController {
 	

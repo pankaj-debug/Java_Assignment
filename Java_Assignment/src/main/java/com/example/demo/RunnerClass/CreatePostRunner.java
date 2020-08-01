@@ -14,6 +14,7 @@ public class CreatePostRunner implements CommandLineRunner{
 	@Autowired
     private Posts posts;
 	
+	
 	@Override
 	@Transactional
 	public void run(String... args) throws Exception {

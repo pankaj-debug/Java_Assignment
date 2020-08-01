@@ -2,7 +2,6 @@ package com.example.demo.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-//change to model from bean
 
 @Entity
 public class Posts {

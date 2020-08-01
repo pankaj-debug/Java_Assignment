@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import com.example.demo.Model.Posts;
 import com.example.demo.Service.PostService;
 
-
 @Component
 public class PostRunner implements CommandLineRunner  {
 @Autowired

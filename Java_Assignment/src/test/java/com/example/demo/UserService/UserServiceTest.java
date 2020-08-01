@@ -17,7 +17,6 @@ import com.example.demo.UserRepository.UserRepository;
 public class UserServiceTest {
 	@Mock
 	UserRepository userRepositoryMock;
-
 	@InjectMocks
 	UserService userServiceImpl;	
 	

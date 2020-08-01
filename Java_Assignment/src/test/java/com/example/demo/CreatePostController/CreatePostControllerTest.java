@@ -11,7 +11,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @WebMvcTest(controllers = CreatePostControllerTest.class)
 @ActiveProfiles("test")
 public class CreatePostControllerTest {
-
 	@Autowired
 	private MockMvc mockMvc;
 	

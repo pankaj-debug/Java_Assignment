@@ -19,8 +19,7 @@ import com.example.demo.Service.UserService;
 
 @WebMvcTest(controllers = UserControllerTest.class)
 @ActiveProfiles("test")
-public class UserControllerTest {
-	
+public class UserControllerTest {	
 	@Autowired                           
     private MockMvc mockMvc; 
 	

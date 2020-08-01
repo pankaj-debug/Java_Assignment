@@ -6,4 +6,5 @@ import com.example.demo.Model.Users;
 
 public interface UserService {
 	List <Users> findAll();
+	
 }

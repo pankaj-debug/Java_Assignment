@@ -16,8 +16,7 @@ import com.example.demo.UserRepository.UserRepository;
 @Service
 public class UserServiceImpl implements UserService {	
 	@Autowired
-    private UserRepository userRepository;
-	
+    private UserRepository userRepository;	
 	@Override
     public List < Users > findAll() {
         return userRepository.findAll();

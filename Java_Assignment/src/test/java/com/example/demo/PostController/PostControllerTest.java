@@ -20,7 +20,6 @@ import com.example.demo.Service.PostService;
 @WebMvcTest(controllers = PostControllerTest.class)
 @ActiveProfiles("test")
 public class PostControllerTest {
-
 	@Autowired                           
     private MockMvc mockMvc;  
 	

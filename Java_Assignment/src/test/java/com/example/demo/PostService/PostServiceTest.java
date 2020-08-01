@@ -21,7 +21,6 @@ public class PostServiceTest {
 	
 	@Mock
 	PostRepository postRepositoryMock;
-
 	@InjectMocks
 	PostService postServiceImpl;	
 	

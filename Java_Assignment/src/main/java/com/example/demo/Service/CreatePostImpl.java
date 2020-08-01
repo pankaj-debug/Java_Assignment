@@ -8,8 +8,7 @@ import com.example.demo.UserRepository.CreateRepository;
 public class CreatePostImpl implements CreatePost{
 	@Autowired
     private CreateRepository createRepository;
-	
-	
+		
 	public Posts save(Posts posts) {
 		return createRepository.save(posts);
     }

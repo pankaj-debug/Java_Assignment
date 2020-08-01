@@ -18,7 +18,6 @@ public class CreatePostTest {
 
 	@Mock
 	CreateRepository createRepositoryMock;
-
 	@InjectMocks
 	CreatePost createPostsImpl;
 

@@ -10,8 +10,7 @@ import com.example.demo.UserRepository.PostRepository;
 
 public class PostServiceImpl implements PostService {	
 	@Autowired
-    private PostRepository postRepository;
-	
+    private PostRepository postRepository;	
 	@Override
     public List < Posts > findAll() {
         return postRepository.findAll();
