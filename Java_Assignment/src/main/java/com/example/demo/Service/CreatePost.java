@@ -1,7 +1,7 @@
 package com.example.demo.Service;
 
-import com.example.demo.Bean.Posts;
+import com.example.demo.Model.Posts;
 
 public interface CreatePost {
-	void save(Posts posts);	
+	Posts save(Posts posts);	
 }

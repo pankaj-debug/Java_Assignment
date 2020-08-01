@@ -1,8 +1,8 @@
-package com.example.demo.Bean;
+package com.example.demo.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
+//change to model from bean
 
 @Entity
 public class Posts {
@@ -20,10 +20,7 @@ public class Posts {
         this.postName = postName;
         this.postDesc = postDesc;
     }
-	
-	
-	
-	
+
 	public Long getPostId() {
 		return postId;
 	}

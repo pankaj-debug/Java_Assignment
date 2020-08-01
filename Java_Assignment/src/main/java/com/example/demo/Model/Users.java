@@ -1,4 +1,4 @@
-package com.example.demo.Bean;
+package com.example.demo.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -12,7 +12,20 @@ public class Users {
 	private String fName;
 	private String lName;
 	private String empId;
-	private String phNo;
+	private long phNo;
+	
+	public Users() {
+		  
+    }
+ 
+    public Users(Long id,String fName, String lName, String empId,Long phNo) {
+    	this.id=id;
+        this.fName = fName;
+        this.lName = lName;
+        this.empId = empId;
+        this.phNo = phNo;
+    }
+		
 	public long getId() {
 		return id;
 	}
@@ -37,13 +50,13 @@ public class Users {
 	public void setEmpId(String empId) {
 		this.empId = empId;
 	}
-	public String getPhNo() {
+	
+	public long getPhNo() {
 		return phNo;
 	}
-	public void setPhNo(String phNo) {
+	public void setPhNo(long phNo) {
 		this.phNo = phNo;
 	}
-	
 	@Override
     public String toString() {
         return "User [id=" + id + ", firstName=" + fName + ", lastName=" + lName + ", emailId=" + empId

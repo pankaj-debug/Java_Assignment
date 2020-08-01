@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.example.demo.Bean.Users;
+import com.example.demo.Model.Users;
 import com.example.demo.Service.UserService;
 
 
